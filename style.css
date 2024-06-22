@@ -1,0 +1,186 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.same-btn button{
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #FF1313;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+header {
+    color: white;
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+header span {
+    color: #FF1313;
+}
+
+header .menu{
+    display: flex;
+    justify-content: center;
+}
+
+header .menu ul li {
+    display: inline-block;
+}
+
+header .menu ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+header .menu ul li a:hover {
+    background-color: #c205056d;
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;                
+}
+
+.menu .active {
+    background-color: #c205056d;
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;                
+}  
+
+header .same-btn button{
+    margin-right: 30px;
+}
+
+header .same-btn button:hover {
+    background-color: #C20505;
+}
+
+
+section.hero-section {
+    height: 900px;
+    background-image: url('img/hero\ pic\ 3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero-section .heading h1{
+    font-size: 70px;
+    margin: 150px 0 0 30px;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section .heading a{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.hero-section .heading a:hover{
+    border-bottom: 2px solid #C20505;
+}
+
+.hero-section .heading h2{
+    font-size: 140px;
+    margin:  10px 0 0 20px;
+}
+
+.hero-section .heading button{
+    background-color: transparent;
+    margin: 30px;
+}
+
+.hero-section button:hover{
+    background-color: #FF1313;
+}
+
+.traning-section{
+    display: flex;
+    background-color: rgb(252, 252, 252);
+}
+
+.traning-section .box{
+    width: 50%;
+    height: 605px;
+    margin: 0 15px;
+    background-image: url('img/cat1.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #C20505;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.traning-section .box2{
+    background-image: url('img/cat2.png');
+}
+
+.traning-section .box h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.traning-section .box p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+.traning-section .box button{
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 14px 35px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.traning-section .box button:hover{
+    background-color: #FF1313;
+}
+
+.traning-section .box2 button{
+    background-color: #FF1313;
+}
+
+.traning-section .box2 button:hover{
+    background-color: #C20505;
+}
